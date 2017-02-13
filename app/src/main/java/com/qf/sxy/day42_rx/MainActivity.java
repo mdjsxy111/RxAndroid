@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         myMemoryCache = MyMemoryCache.getMyMemeryCache();
         myDiskCache = MyDiskCache.getMyDiskCache(MainActivity.this);
 
+
         iv = (ImageView) findViewById(R.id.iv);
     }
 
